@@ -4,6 +4,7 @@ import AnimatedBackground from './components/ui/AnimatedBackground';
 import LanguageSelector from './components/ui/LanguageSelector';
 import HeroSection from './components/sections/HeroSection';
 import AboutSection from './components/sections/AboutSection';
+import ExperienceSection from './components/sections/ExperienceSection';
 import { translations } from './data/translations';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <main style={{ position: 'relative', zIndex: 10 }}>
         <HeroSection t={t} currentLang={currentLang} />
         <AboutSection t={t} currentLang={currentLang} />
+        <ExperienceSection t={t} currentLang={currentLang} />
       </main>
     </div>
   );
